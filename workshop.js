@@ -4,6 +4,8 @@ function getDistance(pos1, pos2) {
   return Math.sqrt(Math.pow(pos1.lat - pos2.lat, 2) + Math.pow(pos1.lng - pos2.lng, 2));
 }
 
+console.log('hello');
+
 function getIssPosition() {
   return request("http://api.open-notify.org/iss-now.json")
   .then(

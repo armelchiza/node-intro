@@ -14,18 +14,18 @@ In order to do these exercises, you will need to know about the [JSON format](ht
   2. Complete the code of this function so that it returns the position of the ISS as a `Promise`.
   3. Make sure to use the data from `http://api.open-notify.org/iss-now.json` to do your work
   4. The ISS API returns the position keys as `latitude` and `longitude`. Return them as `lat` and `lng` instead.
-  
+
 ### `getAddressPosition`
   1. Complete the code of this function to return a `Promise` for a lat/lng object
   2. Use the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/get-api-key) to do this
   3. Make sure to only return an object with lat/lng and not the whole response
-  
+
 ### `getCurrentTemperatureAtPosition`
   1. Go to [Dark Sky API](https://darksky.net/dev/) and read the documentation
   2. Signup and get a free API key
   3. Complete the code of the function. The `position` parameter is an object with `lat` and `lng`.
   4. Make sure your function only returns a `Promise` for the current temperature (a number) and nothing else
-  
+
 ### `getCurrentTemperature`
 While it's useful to get the current temperature for a specific lat/lng, most often we want to provide the name of a place instead.
 
